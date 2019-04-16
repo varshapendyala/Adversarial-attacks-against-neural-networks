@@ -4,7 +4,7 @@ of Neural Networks.](https://arxiv.org/abs/1608.04644) Lp norm based attack algo
 
 MINIST handwritten digits dataset is considered to demonstrate the attacks against a trained model.
 
-In [MNIST_training.ipynb](), I use Tensorflow's Keras APIs to construct the feedforward network, train and evaluate.
+In [MNIST_training.ipynb](https://github.com/varshapendyala/Adversarial-attacks-against-neural-networks/blob/master/MNIST_training.ipynb), I use Tensorflow's Keras APIs to construct the feedforward network, train and evaluate.
 Model training is done with 'categorical_crossentropy' loss and 'SGD' optimizer with 0.01 learning rate. The trained model is saved as [my_MNIST.h5](). The model accuracy on the MNIST test data is close to 99.2%
 
 
